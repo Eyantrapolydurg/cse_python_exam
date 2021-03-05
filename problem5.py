@@ -25,6 +25,6 @@ mounths = {
     "November":30,
     "December":31
     }
-for i,j in zip(mounths.keys(),mounths.values()):
-    print(f"{i}:{j}")
+for i in mounths.keys():
+    print(f"{i}:{mounths[i]}")
     
